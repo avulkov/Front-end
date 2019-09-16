@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MobileSellings</title>
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<div class="container bg-info" id="container"  >
+    <p id="description">Answer a few questions before apply for the Job</p>
+    <form id="survey-form">
+
+       <div class="row">
+           <div class="col-sm-4">
+               <ul>
+                   <li>
+                       <label id="name-label">*Name:</label>
+                       <input id="name" type="text" placeholder="Name" required>
+                   </li>
+                   <li>
+                       <label id="email-label">*Email:</label>
+                       <input id="email" type="email" placeholder="Email" required>
+                   </li>
+                   <li>
+                       <label id="number-label">*Age:</label>
+                       <input id="number" type="number" min="18" max="66" placeholder="Age" required>
+                   </li>
+
+               </ul>
+           </div>
+           <div class="col-sm-4">
+               <div id="dropdown" class="form-group">
+                   <label for="dropdown">Which option best describes your current role?</label>
+                   <select  class="form-control" >
+                       <option>Student</option>
+                       <option>Full Time Job</option>
+                       <option>Full Time Learner</option>
+                       <option>Other</option>
+                   </select>
+               </div>
+           </div>
+           <div class="col-sm-4">
+               <div class="form-group">
+                   <label for="sel2">What is you favorite way to relax ?</label>
+                   <select  class="form-control" id="sel2">
+                       <option>Skiing</option>
+                       <option>Go to mountain</option>
+                       <option>Swimming</option>
+                       <option>Football</option>
+                   </select>
+               </div>
+           </div>
+       </div>
+        <div class="row ">
+
+            <div id="type-of-work" class="col-sm-4 custom-control custom-radio">
+                <label>What type of business do you preffer?</label>
+                <br>
+                <div>
+                    <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="defaultExampleRadios">
+                    <label class="custom-control-label" for="defaultUnchecked1">Full Time onsite</label>
+                </div>
+                <div><input type="radio" class="custom-control-input" id="defaultUnchecked2" name="defaultExampleRadios">
+                    <label class="custom-control-label" for="defaultUnchecked1">Remote work</label></div>
+                <div><input type="radio" class="custom-control-input" id="defaultUnchecked3" name="defaultExampleRadios">
+                    <label class="custom-control-label" for="defaultUnchecked1">Hourly rate</label></div>
+            </div>
+           <div class="col-sm-3">
+               <label>What do your skills include ?</label>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                   <label class="form-check-label" for="inlineCheckbox1">C#</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                   <label class="form-check-label" for="inlineCheckbox2">JavaScript</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                   <label class="form-check-label" for="inlineCheckbox3">PHP</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4" >
+                   <label class="form-check-label" for="inlineCheckbox4">Pyton</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5" >
+                   <label class="form-check-label" for="inlineCheckbox5">React</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option5" >
+                   <label class="form-check-label" for="inlineCheckbox6">Java</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option5" >
+                   <label class="form-check-label" for="inlineCheckbox7">MS SQL</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option5" >
+                   <label class="form-check-label" for="inlineCheckbox8">Mongo DB</label>
+               </div>
+               <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option5" >
+                   <label class="form-check-label" for="inlineCheckbox9">Azure</label>
+               </div>
+
+           </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea3">Write something you want to share:</label>
+                    <textarea class="form-control " id="exampleFormControlTextarea3" rows="7"></textarea>
+
+                </div>
+            </div>
+        </div>
+<div id="button" class="d-flex justify-content-center">
+   <div >
+       <button id="submit" type="submit"  class="btn ">Submit</button>
+   </div>
+</div>
+
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
