@@ -47,3 +47,10 @@ label{
 #type-of-work{
     margin-left: 20px;
 }
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+hr{
+    border: 2px solid darkcyan;
+}
