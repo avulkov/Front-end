@@ -1,0 +1,48 @@
+#title{
+    text-align: center;
+    padding-top: 30px;
+
+}
+#image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+
+}
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#holder{
+    list-style: none;
+
+}
+#tribute-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info-holder li{
+    margin-bottom: 30px;
+}
+#main{
+
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#link-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px    ;
+    padding-bottom: 50px;
+}
+#img-caption{
+    font-family: monospace;
+}
+
